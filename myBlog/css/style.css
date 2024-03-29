@@ -1,0 +1,29 @@
+.travel_maindiv{
+    border: 1px solid lightgray;
+}
+
+.travel_maindiv img{
+    width: 100%;
+}
+.travel_maindiv h5, .travel_maindiv p{
+    margin: 20px;
+}
+.movies_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.movies_head i{
+    float: right;
+    color: white;
+}
+.movies_text span{
+    color: orange;
+}
+.book{
+    margin-bottom: 20px;
+}
+#contact iframe{
+    width: 100%;
+}
