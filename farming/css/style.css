@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.header{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 25px; 
+}
+.ibox{
+    width: 200px;
+    background-color: chartreuse;
+    margin-left: 20px;
+}
+#iblarea{
+    font-weight: bold;  
+    font-size: 20px;  
+}
+#iblperimeter{
+    font-weight: bold;  
+    font-size: 20px;    
+}
