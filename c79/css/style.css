@@ -1,0 +1,10 @@
+.margin20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#sort_button{
+    display: none;
+}
+input{
+    margin: 10px;
+}
