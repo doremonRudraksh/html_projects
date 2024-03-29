@@ -1,0 +1,35 @@
+p{
+    font-family: Shizuru;
+    letter-spacing: 10px;
+    color: red;
+}
+
+h1{
+    font-family: smooch;
+    background-color:chocolate;
+    width: 200px;
+}
+
+h2{
+    font-family: corinthia;
+    color: rgb(100, 0, 200);
+}
+
+h2:hover{
+    text-decoration: underline red;
+}
+
+h4{
+    font-family: corinthia;
+    font-size: 30px;
+
+}
+body{
+    background-color: lightskyblue;
+    text-align: left;
+}
+#camera{
+    width: 350px;
+    height: 300px;
+    border: 2px dashed red;
+}

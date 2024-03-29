@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Identification Model</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Shizuru&family=Smooch&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+        <h2>Face Recognization Web App</h2>
+        <br>
+        <h4>Model is trained to identify Following objects : </h4>
+        <br>
+        <h1>Grandfather</h1>
+        <h1>GrandMother</h1>
+        <h1>Father</h1>
+        <h1>Mother</h1>
+        <h1>Rudraksh</h1>
+        <br>
+        <label>Webcam View - </label>
+        <br><br>
+        <div id="camera"></div>
+        <br>
+        <div id="result"></div>
+        <br><br>
+        <button class="btn btn-primary" onclick="takeSnapshot()">Capture Image</button>
+        <br><br>
+        <button class="btn btn-success" onclick="check()">Identify Image</button>
+        <br><br>
+        <p style="font-size: 22px;">Object : <span id="result_obj_name"></span> </p>
+        <p style="font-size: 22px;">Accuracy :  <span id="result_obj_accuracy"></span></p>
+    </center>
+    </body>
+    <script src="main.js"></script>
+</html>
