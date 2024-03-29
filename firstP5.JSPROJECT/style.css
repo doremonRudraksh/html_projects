@@ -1,0 +1,18 @@
+body{
+    background-color: cornsilk;
+}
+
+h1:hover{
+   color: blue ;
+   text-decoration: underline;
+   border: dotted red;
+
+}
+
+canvas{
+    border: 1px solid blueviolet;
+}
+
+h1{
+    width: 330px;
+}
