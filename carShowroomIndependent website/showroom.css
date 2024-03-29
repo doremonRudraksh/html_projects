@@ -1,0 +1,23 @@
+.button{
+    float: right;
+    color: orange;
+}
+.button:hover{
+    border: dashed;
+    background-color: peru;
+
+}
+
+body{
+    background-color : paleturquoise;
+}
+
+#user_name{
+    color: purple;
+}
+#user_name:hover{
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+

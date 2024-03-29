@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dubain Car Showroom Website</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link rel="stylesheet" href="showroom.css">
+    </head>
+    <body style="text-align: center;">
+        <ul class="nav navbar-nav, button">
+            <li><a href="#toyota_cars">Toyota Cars</a></li>
+            <li><a href="#bmw_cars">BMW Cars</a></li>
+            <li><a href="#audi_cars">Audi Car</a></li>
+            <li><a href="#mercedes_benz_cars">Mercedes-Benz Cars</a></li>
+        </ul>
+        <h1>About Cars</h1>
+        <h2 id="user_name"></h2>
+        <hr>
+        <section id="toyota_cars">
+        <h3>Cars of Toyota</h3>
+        <hr>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/6185/logo/slide_show_2020_corolla_logo.png">
+        <h4>Toyota Corola</h4>
+        <a target="_blank" class="btn btn-warning" href="https://uae.yallamotor.com/new-cars/toyota/corolla/2021">More about Corola</a>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/6247/pictures/6205033/slide_show_HIAC_WG_1908-3005.jpg">
+        <h4>Toyota Granvia</h4>
+        <a  target="_blank" class="btn btn-warning" href="https://uae.yallamotor.com/new-cars/toyota/granvia">More about Granvia</a>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/6198/logo/slide_show_supra.jpg">
+        <h4>Toyota Supra</h4>
+        <a target="_blank" class="btn btn-warning" href="https://uae.yallamotor.com/new-cars/toyota/supra">More about Supra</a>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/6290/logo/slide_show_2019_Toyota_Avalon.jpg">
+        <h4>Toyota Avalon</h4>
+        <a class="btn btn-warning" target="_blank" href="https://uae.yallamotor.com/new-cars/toyota/avalon">More about Avalon</a>
+        <hr>
+        </section>   
+        <br>
+        <section id="bmw_cars">
+        <h3>Cars of BMW</h3>
+        <hr>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/7069/pictures/6779668/webp_slide_show_01.webp">
+        <h4>BMW M8 Convertible</h4>
+        <a class="btn btn-danger"  href="https://uae.yallamotor.com/new-cars/bmw/m8-convertible"target="_blank">More about BMW M8 Convertible</a>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/7011/logo/webp_slide_show_01.webp">
+        <h4>BMW M8 Coupe</h4>
+        <a class="btn btn-danger" target="_blank" href="https://uae.yallamotor.com/new-cars/bmw/m8-gran-coupe" >More about BMW M8 Coupe</a>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/7068/pictures/6779290/webp_slide_show_01.webp ">
+        <h4>BMW M8 Gran Coupe</h4>
+        <a class="btn btn-danger" target="_blank" href="https://uae.yallamotor.com/new-cars/bmw/m8-gran-coupe" >More about BMW M8  Gran Coupe</a>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/6923/logo/webp_slide_show_13733_st1280_046.webp">
+        <h4>BMW X7</h4>
+        <a class="btn btn-danger" target="_blank" href="https://uae.yallamotor.com/new-cars/bmw/x7"  >More about BMW X7</a>
+        <hr>
+        </section>
+        <br>
+        <section id="audi_cars">
+        <h3>Cars of Audi</h3>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/7000/pictures/6213491/webp_slide_show_01.webp">
+        <h4>Audi SQ8</h4>
+        <a target="_blank" class="btn btn-info" href="https://uae.yallamotor.com/new-cars/audi/sq8">More about Audi SQ8</a>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/6903/logo/webp_slide_show_e-tron.webp">
+        <h4>Audi E-Tron</h4>
+        <a  target="_blank" href="https://uae.yallamotor.com/new-cars/audi/e-tron" class="btn btn-info">More about Audi E-Tron</a>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/6477/logo/webp_slide_show_11694_st1280_046.webp">
+        <h4>Audi A3 Sedan</h4>
+        <a target="_blank" href="https://uae.yallamotor.com/new-cars/audi/a3-sedan/2021" class="btn btn-info">More about Audi A3 Sedan</a>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/7010/pictures/6213614/webp_slide_show_01.webp">
+        <h4>Audi E-Tron  Sportback</h4>
+        <a class="btn btn-info" target="_blank" href="https://uae.yallamotor.com/new-cars/audi/e-tron-sportback">More about Audi E-Tron Sportback</a>
+        <hr>
+        </section>
+        <br>
+        <section id="mercedes_benz_cars">
+        <h3>Cars of Mercedes Benz</h3>
+        <hr>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/6224/pictures/6204578/webp_listing_main_eqv.webp">
+        <h4>The Mercedes-Benz EQV</h4>
+        <a class="btn btn-success" target="_blank" href="https://uae.yallamotor.com/new-cars/mercedes-benz/eqv">More about The Mercedes-Benz EQV</a>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/6227/logo/mobile_listing_main_01.jpg">
+        <h4>The Mercedes-Benz GLB</h4>
+        <a class="btn btn-success" target="_blank" href="https://uae.yallamotor.com/new-cars/mercedes-benz/glb">The Mercedes-Benz GLB</a>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/6902/pictures/6212539/mobile_listing_main_Mercedes_Benz_EQC_Logo.png">
+        <h4>The Mercedes-Benz EQC</h4>
+        <a class="btn btn-success" target="_blank" href="https://uae.yallamotor.com/new-cars/mercedes-benz/eqc">More about The Mercedes-Benz EQC</button>
+        <br>
+        <img style="width: 700px; height: 400px;" src="https://ymimg1.b8cdn.com/resized/car_model/6919/logo/slide_show_01.jpg">
+        <h4>Mercedes-Benz A-Class Sedan</h4>
+        <a class="btn btn-success" href="https://uae.yallamotor.com/new-cars/mercedes-benz/a-class-sedan" target="_blank">More about Mercedes-Benz A-Class Sedan</a>
+        </section>
+    </body>
+    <script src="showroom.js"></script>
+</html>
