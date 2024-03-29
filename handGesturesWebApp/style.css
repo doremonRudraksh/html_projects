@@ -1,0 +1,24 @@
+body{
+    background-color: cornsilk;
+}
+
+h3{
+    width: 200px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: crimson;
+    font-size: larger;
+    font-weight: 200;
+}
+
+p:hover{
+    text-decoration: underline black ;
+}
+
+label{
+    background-color: blue;
+    color: white;
+}
